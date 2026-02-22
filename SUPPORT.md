@@ -9,11 +9,11 @@
 **GitHub Issues** で受け付けています。
 
 - **Issues を開く**: [New Issue](https://github.com/animtools/Releases/issues/new)
-- **対象アプリ名**をタイトルまたは本文の最初に書いてください（例: `[VideoTileKun] 起動時にエラー` / `[VideoTileKunInspector] 〇〇が表示されない`）。
+- **対象アプリ名**をタイトルまたは本文の最初に書いてください（例: `[VideoTileKun] 起動時にエラー`）。
 
 ### 報告時にあると助かる情報
 
-- **アプリ名**（例: VideoTileKun / VideoTileKunInspector）
+- **アプリ名**（例: VideoTileKun）
 - **バージョン**（exe のプロパティや About で確認、またはダウンロードした zip のバージョン）
 - **OS**（例: Windows 11 64bit）
 - **現象**（何をしたらどうなったか）
@@ -41,10 +41,6 @@
 
 - **Q: ライブラリフォルダはどこに保存されますか？**  
   A: アプリの設定はユーザーフォルダ内に保存されます。ライブラリに「登録した動画の実体」は、あなたが指定したフォルダのままです。
-
-### VideoTileKunInspector（インスペクタプラグイン）
-
-- 配布・ドキュメントの準備ができ次第、FAQ を追加します。
 
 ---
 

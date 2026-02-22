@@ -15,12 +15,9 @@
 - **ダウンロード**: [Releases](https://github.com/animtools/Releases/releases) から最新の **VideoTileKun-vX.Y.Z-win64.zip** を取得し、解凍して付属の exe を起動してください。
 - **アプリのドキュメント**: [apps/VideoTileKun/](./apps/VideoTileKun/)  
   - [README（説明・機能・動作環境）](./apps/VideoTileKun/README.md)  
+  - [ユーザーガイド](./apps/VideoTileKun/USER_GUIDE.md)  
   - [クイックスタート](./apps/VideoTileKun/QUICKSTART.md)  
   - [変更履歴（CHANGELOG）](./apps/VideoTileKun/CHANGELOG.md)
-
-### VideoTileKunInspector（インスペクタプラグイン）
-
-Eagle 等で利用するインスペクタ用プラグインです。配布方法・ドキュメントは準備でき次第掲載します。
 
 ---
 
@@ -34,4 +31,4 @@ Eagle 等で利用するインスペクタ用プラグインです。配布方�
 
 ## ライセンス
 
-各アプリの利用条件は [LICENSE](./LICENSE) を参照してください。
+各アプリは **再配布可・改変禁止** の利用条件です。未改変のままの再配布は可能で、改変・派生作品の作成・配布はできません。詳細は [LICENSE](./LICENSE) を参照してください。

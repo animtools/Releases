@@ -12,6 +12,7 @@
 
 ## ドキュメント（このアプリ）
 
+- **[USER_GUIDE.md](./USER_GUIDE.md)** — 操作ガイド（プレーヤー・ライブラリウィンドウの機能を網羅）
 - **[QUICKSTART.md](./QUICKSTART.md)** — 最短の使い方（ダウンロード〜起動〜ライブラリ設定〜タイル生成）
 - **[CHANGELOG.md](./CHANGELOG.md)** — バージョンごとの変更内容
 
