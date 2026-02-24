@@ -1,4 +1,4 @@
-# VideoTileKun - クイックスタートガイド
+# VideoTileKun-desktop - クイックスタートガイド
 
 Windows 用ポータブル版の最短の使い方です。
 
@@ -7,7 +7,7 @@ Windows 用ポータブル版の最短の使い方です。
 ## 1. ダウンロードと起動
 
 1. [Releases](https://github.com/animtools/Releases/releases) を開く。
-2. 最新リリースの **VideoTileKun-vX.Y.Z-win64.zip** をダウンロード。（X.Y.Z はバージョン番号。win64 は Windows 64bit 用のビルドを示す名前です。）
+2. 最新リリースの **VideoTileKun-desktop-vX.Y.Z-win64.zip** をダウンロード。（X.Y.Z はバージョン番号。win64 は Windows 64bit 用のビルドを示す名前です。）
 3. zip を解凍する（任意のフォルダでよい）。
 4. 解凍したフォルダ内の **exe** をダブルクリックして起動。
 

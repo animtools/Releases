@@ -4,20 +4,33 @@
 
 **アプリごとのドキュメント**は `apps/アプリ名/` フォルダにまとめています。
 
+**VirusTotal**: 最新版・過去版のスキャン結果は、各 [Releases](https://github.com/animtools/Releases/releases) の説明欄をご確認ください。リンクはリリースごとの説明にのみ掲載しています。
+
 ---
 
 ## 公開アプリ一覧
 
-### VideoTileKun（デスクトップアプリ）
+### VideoTileKun-desktop（デスクトップアプリ）
 
 動画のタイルプレビュー・ライブラリ管理ができる Windows 用デスクトップアプリ（Electron・ポータブル版）です。
 
-- **ダウンロード**: [Releases](https://github.com/animtools/Releases/releases) から最新の **VideoTileKun-vX.Y.Z-win64.zip** を取得し、解凍して付属の exe を起動してください。
-- **アプリのドキュメント**: [apps/VideoTileKun/](./apps/VideoTileKun/)  
-  - [README（説明・機能・動作環境）](./apps/VideoTileKun/README.md)  
-  - [ユーザーガイド](./apps/VideoTileKun/USER_GUIDE.md)  
-  - [クイックスタート](./apps/VideoTileKun/QUICKSTART.md)  
-  - [変更履歴（CHANGELOG）](./apps/VideoTileKun/CHANGELOG.md)
+- **ダウンロード**: [Releases](https://github.com/animtools/Releases/releases) から最新の **VideoTileKun-desktop-vX.Y.Z-win64.zip** を取得し、解凍して付属の exe を起動してください。
+- **アプリのドキュメント**: [apps/VideoTileKun-desktop/](./apps/VideoTileKun-desktop/)  
+  - [README（説明・機能・動作環境）](./apps/VideoTileKun-desktop/README.md)  
+  - [ユーザーガイド](./apps/VideoTileKun-desktop/USER_GUIDE.md)  
+  - [クイックスタート](./apps/VideoTileKun-desktop/QUICKSTART.md)  
+  - [変更履歴（CHANGELOG）](./apps/VideoTileKun-desktop/CHANGELOG.md)
+
+### VideoTileKun-plugins（Eagle プラグインセット）
+
+Eagle 用の Video Tile-kun 系プラグイン 3 本（Inspector / Player / Service）をひとまとまりにした配布です。
+
+- **ダウンロード**: [Releases](https://github.com/animtools/Releases/releases) から最新の **VideoTileKun-plugins-vX.Y.Z.zip** を取得し、Eagle のプラグインフォルダに配置してください。
+- **アプリのドキュメント**: [apps/VideoTileKun-plugins/](./apps/VideoTileKun-plugins/)  
+  - [README（概要・含まれるプラグイン）](./apps/VideoTileKun-plugins/README.md)  
+  - [ユーザーガイド](./apps/VideoTileKun-plugins/USER_GUIDE.md)  
+  - [クイックスタート](./apps/VideoTileKun-plugins/QUICKSTART.md)  
+  - [変更履歴（CHANGELOG）](./apps/VideoTileKun-plugins/CHANGELOG.md)
 
 ---
 

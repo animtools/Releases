@@ -1,4 +1,4 @@
-# VideoTileKun
+# VideoTileKun-desktop
 
 動画のタイルプレビュー・ライブラリ管理ができる Windows 用デスクトップアプリ（Electron・ポータブル版）です。
 
@@ -6,7 +6,9 @@
 
 ## ダウンロード
 
-[Releases](https://github.com/animtools/Releases/releases) から最新の **VideoTileKun-vX.Y.Z-win64.zip** を取得し、解凍して付属の exe を起動してください。
+[Releases](https://github.com/animtools/Releases/releases) から最新の **VideoTileKun-desktop-vX.Y.Z-win64.zip** を取得し、解凍して付属の exe を起動してください。
+
+**VirusTotal**: スキャン結果は各 [リリースページの説明欄](https://github.com/animtools/Releases/releases) に掲載しています。
 
 ---
 

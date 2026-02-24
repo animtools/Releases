@@ -9,11 +9,11 @@
 **GitHub Issues** で受け付けています。
 
 - **Issues を開く**: [New Issue](https://github.com/animtools/Releases/issues/new)
-- **対象アプリ名**をタイトルまたは本文の最初に書いてください（例: `[VideoTileKun] 起動時にエラー`）。
+- **対象アプリ名**をタイトルまたは本文の最初に書いてください（例: `[VideoTileKun-desktop] 起動時にエラー`、`[VideoTileKun-plugins] インスペクタでタイルが出ない`）。
 
 ### 報告時にあると助かる情報
 
-- **アプリ名**（例: VideoTileKun）
+- **アプリ名**（例: VideoTileKun-desktop / VideoTileKun-plugins）
 - **バージョン**（exe のプロパティや About で確認、またはダウンロードした zip のバージョン）
 - **OS**（例: Windows 11 64bit）
 - **現象**（何をしたらどうなったか）
@@ -25,13 +25,16 @@
 
 ### 全般
 
+- **Q: 配布物のセキュリティは確認できますか？**  
+  A: 最新版・過去版とも、各 [Releases](https://github.com/animtools/Releases/releases) の説明欄に VirusTotal のスキャン結果リンクと SHA-256 を掲載しています。ダウンロード前にご確認ください。
+
 - **Q: ソースコードはありますか？**  
   A: 配布用リポジトリにはバイナリ（exe/zip）のみ公開しています。ソースは別リポジトリで管理しています。
 
 - **Q: 複数アプリを同じリポジトリで公開している理由は？**  
   A: 同一プロジェクトで開発しているアプリのリリースを一箇所で管理するためです。サポート窓口もこの SUPPORT.md に統一しています。
 
-### VideoTileKun（デスクトップアプリ）
+### VideoTileKun-desktop（デスクトップアプリ）
 
 - **Q: 起動時に「Windows が PC を保護しました」と出る**  
   A: 署名していないためです。「詳細情報」→「実行」で起動できます。

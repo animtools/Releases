@@ -1,4 +1,4 @@
-# Changelog - VideoTileKun
+# Changelog - VideoTileKun-desktop
 
 このアプリ（デスクトップ版）のバージョンごとの変更内容です。
 
