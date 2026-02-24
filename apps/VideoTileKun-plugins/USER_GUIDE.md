@@ -30,7 +30,7 @@ Inspector と Player は**それぞれ単体で利用できます**。両方入�
 
 ### FFmpeg の準備
 
-タイル生成には FFmpeg が必要です。Eagle の設定から FFmpeg をインストールしてください。
+全プラグインでタイル生成に FFmpeg が必要です。Eagle の設定から FFmpeg をインストールしてください。
 
 > Eagle メニュー → プラグイン → 設定 → FFmpeg をインストール
 
@@ -82,7 +82,7 @@ Eagle のインスペクタ領域に表示されるメインプラグイン。�
 
 ### 対応形式
 
-mp4, mov, avi, mkv, webm, m4v, flv, wmv など。**FFmpeg プラグイン**のインストールが必要です。
+mp4, mov, avi, mkv, webm, m4v, flv, wmv など。全プラグイン同様、**FFmpeg プラグイン**のインストールが必要です。
 
 ---
 

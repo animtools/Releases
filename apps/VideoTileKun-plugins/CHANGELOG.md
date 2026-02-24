@@ -18,7 +18,7 @@
   - **VideoTileKunInspector**: インスペクタで動画タイルの生成・表示・ホバープレビュー
   - **VideoTileKunPlayer**: タイムライン・マーカー・タイルビュー付きプレーヤー
   - **VideoTileKunService**: 動画追加時のバックグラウンドタイル自動生成
-- 対応環境: Eagle 4.0 以降（Inspector/Service は FFmpeg プラグイン必要）
+- 対応環境: Eagle 4.0 以降（全プラグインで FFmpeg プラグイン必要）
 
 ---
 

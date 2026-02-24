@@ -4,6 +4,14 @@
 
 ---
 
+## [1.0.0] - 2026-02-25
+
+### Changed
+
+- メジャーバージョン 1.0.0 として安定版リリース
+
+---
+
 ## [0.1.0] - 2026-02-22
 
 ### Added
@@ -20,4 +28,5 @@
 
 ---
 
+[1.0.0]: https://github.com/animtools/Releases/releases/tag/v1.0.0
 [0.1.0]: https://github.com/animtools/Releases/releases/tag/v0.1.0

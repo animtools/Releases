@@ -1,6 +1,16 @@
-# Eagle プラグインセット（Video Tile-kun）
+# Eagle プラグインセット（VideoTileKun）
 
-[Eagle](https://en.eagle.cool/) 用の **Video Tile-kun** 系プラグイン 3 本をひとまとまりにした配布です。動画のタイル（サムネイル）表示・プレーヤー・自動タイル生成をサポートします。
+[Eagle](https://en.eagle.cool/) 用の **VideoTileKun** 系プラグイン 3 本（VideoTileKun Inspector / VideoTileKun Player / VideoTileKun Service）をひとまとまりにした配布です。動画のタイル（サムネイル）表示・プレーヤー・自動タイル生成をサポートします。
+
+---
+
+## 公式ドキュメント
+
+- **LAG 公式（詳細な使い方・FAQ）**: [VideoTileKun プラグイン — 概要・インストール・Inspector・Player・Service](https://lag-site.vercel.app/docs.html#vtk-overview)
+- **このリポジトリ内**:
+  - **[QUICKSTART.md](./QUICKSTART.md)** — 最短の入れ方（ダウンロード〜Eagle にインストール〜初回の流れ）
+  - **[USER_GUIDE.md](./USER_GUIDE.md)** — 各プラグインの役割と基本的な使い方
+  - **[CHANGELOG.md](./CHANGELOG.md)** — バージョンごとの変更内容
 
 ---
 
@@ -26,19 +36,23 @@
 
 ---
 
-## ドキュメント（このセット）
+## デモ・スクリーンショット
 
-- **[QUICKSTART.md](./QUICKSTART.md)** — 最短の入れ方（ダウンロード〜Eagle にインストール〜初回の流れ）
-- **[USER_GUIDE.md](./USER_GUIDE.md)** — 各プラグインの役割と基本的な使い方
-- **[CHANGELOG.md](./CHANGELOG.md)** — バージョンごとの変更内容
+デモ GIF は [media/](./media/) に配置し、README や GitHub Release の説明文から参照できます。
+
+- **README での表示例**（ファイルを `media/` に置いたあと、下記のコメントを外してファイル名を合わせる）:
+  ```markdown
+  ![タイル一覧](media/tile-grid.gif)
+  ![ホバープレビュー](media/hover-preview.gif)
+  ```
+- **Release 説明文で使う場合**: リポジトリに push したうえで、`https://github.com/animtools/Releases/raw/main/apps/VideoTileKun-plugins/media/ファイル名.gif` を画像 URL として貼れます。詳しくは [media/README.md](./media/README.md)。
 
 ---
 
 ## 動作環境
 
 - **Eagle** 4.0 以降
-- **VideoTileKunInspector / VideoTileKunService**: FFmpeg プラグイン（Eagle のプラグイン設定からインストール）が必要です。
-- **VideoTileKunPlayer**: 追加のプラグインは不要です。
+- **全プラグイン**（Inspector / Player / Service）: FFmpeg プラグイン（Eagle のプラグイン設定からインストール）が必要です。
 
 ---
 

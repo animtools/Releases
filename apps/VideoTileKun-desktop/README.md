@@ -4,6 +4,16 @@
 
 ---
 
+## 公式ドキュメント
+
+- **LAG 公式（詳細な使い方・トラブルシューティング）**: [VideoTileKun Desktop 版 — クイックスタート・プレーヤー・ライブラリ・タイル管理](https://lag-site.vercel.app/desktop-docs.html)
+- **このリポジトリ内**:
+  - **[USER_GUIDE.md](./USER_GUIDE.md)** — 操作ガイド（プレーヤー・ライブラリウィンドウの機能を網羅）
+  - **[QUICKSTART.md](./QUICKSTART.md)** — 最短の使い方（ダウンロード〜起動〜ライブラリ設定〜タイル生成）
+  - **[CHANGELOG.md](./CHANGELOG.md)** — バージョンごとの変更内容
+
+---
+
 ## ダウンロード
 
 [Releases](https://github.com/animtools/Releases/releases) から最新の **VideoTileKun-desktop-vX.Y.Z-win64.zip** を取得し、解凍して付属の exe を起動してください。
@@ -12,11 +22,16 @@
 
 ---
 
-## ドキュメント（このアプリ）
+## デモ・スクリーンショット
 
-- **[USER_GUIDE.md](./USER_GUIDE.md)** — 操作ガイド（プレーヤー・ライブラリウィンドウの機能を網羅）
-- **[QUICKSTART.md](./QUICKSTART.md)** — 最短の使い方（ダウンロード〜起動〜ライブラリ設定〜タイル生成）
-- **[CHANGELOG.md](./CHANGELOG.md)** — バージョンごとの変更内容
+デモ GIF は [media/](./media/) に配置し、README や GitHub Release の説明文から参照できます。
+
+- **README での表示例**（ファイルを `media/` に置いたあと、下記のコメントを外してファイル名を合わせる）:
+  ```markdown
+  ![タイル生成](media/tile-generation.gif)
+  ![ライブラリ](media/library.gif)
+  ```
+- **Release 説明文で使う場合**: リポジトリに push したうえで、`https://github.com/animtools/Releases/raw/main/apps/VideoTileKun-desktop/media/ファイル名.gif` を画像 URL として貼れます。詳しくは [media/README.md](./media/README.md)。
 
 ---
 
