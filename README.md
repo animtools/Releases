@@ -1,52 +1,54 @@
-# リリース配布リポジトリ
+# Release Distribution Repository
 
-このリポジトリでは、同一プロジェクトで開発している複数アプリの**配布用バイナリ**を GitHub Releases で公開しています。ソースコードは別リポジトリで管理しています。
+This repository publishes **distribution binaries** of multiple apps developed in the same project via GitHub Releases. Source code is maintained in separate repositories.
 
-**LAG 公式サイト（ドキュメント）**:
-- **トップ**: [LAG | The Lazy Animator's Garage](https://lag-site.vercel.app/)
-- **VideoTileKun プラグイン**（概要・Inspector・Player・Service）: [ドキュメント](https://lag-site.vercel.app/docs.html#vtk-overview)
-- **VideoTileKun Desktop 版**: [ドキュメント](https://lag-site.vercel.app/desktop-docs.html)
+**LAG Official Site (Documentation)**:
+- **Top**: [LAG | The Lazy Animator's Garage](https://lag-site.vercel.app/)
+- **VideoTileKun Plugins** (Overview, Inspector, Player, Service): [Documentation](https://lag-site.vercel.app/docs.html#vtk-overview)
+- **VideoTileKun Desktop**: [Documentation](https://lag-site.vercel.app/desktop-docs.html)
 
-**このリポジトリ内のドキュメント**: 各アプリの説明・使い方・変更履歴は **`apps/アプリ名/`** にまとまっています。下記の「アプリのドキュメント」リンクからご覧ください。
+**Documentation in this repository**: Each app's description, usage, and changelog are in **`apps/app-name/`**. See the "App Documentation" links below.
 
-**VirusTotal**: 最新版・過去版のスキャン結果は、各 [Releases](https://github.com/animtools/Releases/releases) の説明欄をご確認ください。リンクはリリースごとの説明にのみ掲載しています。
+**VirusTotal**: Scan results for latest and past versions are available in each [Releases](https://github.com/animtools/Releases/releases) description. Links are provided only in the release notes.
 
----
-
-## 公開アプリ一覧
-
-### VideoTileKun-desktop（デスクトップアプリ）
-
-動画のタイルプレビュー・ライブラリ管理ができる Windows 用デスクトップアプリ（Electron・ポータブル版）です。
-
-- **ダウンロード**: [Releases](https://github.com/animtools/Releases/releases) から最新の **VideoTileKun-desktop-vX.Y.Z-win64.zip** を取得し、解凍して付属の exe を起動してください。
-- **公式ドキュメント（このアプリ）**: [apps/VideoTileKun-desktop/](./apps/VideoTileKun-desktop/)  
-  - [README（説明・機能・動作環境）](./apps/VideoTileKun-desktop/README.md)  
-  - [ユーザーガイド](./apps/VideoTileKun-desktop/USER_GUIDE.md)  
-  - [クイックスタート](./apps/VideoTileKun-desktop/QUICKSTART.md)  
-  - [変更履歴（CHANGELOG）](./apps/VideoTileKun-desktop/CHANGELOG.md)
-
-### VideoTileKun-plugins（Eagle プラグインセット）
-
-Eagle 用の VideoTileKun 系プラグイン 3 本（Inspector / Player / Service）をひとまとまりにした配布です。
-
-- **ダウンロード**: [Releases](https://github.com/animtools/Releases/releases) から最新の **VideoTileKun-plugins-vX.Y.Z.zip** を取得し、Eagle のプラグインフォルダに配置してください。
-- **公式ドキュメント（このセット）**: [apps/VideoTileKun-plugins/](./apps/VideoTileKun-plugins/)  
-  - [README（概要・含まれるプラグイン）](./apps/VideoTileKun-plugins/README.md)  
-  - [ユーザーガイド](./apps/VideoTileKun-plugins/USER_GUIDE.md)  
-  - [クイックスタート](./apps/VideoTileKun-plugins/QUICKSTART.md)  
-  - [変更履歴（CHANGELOG）](./apps/VideoTileKun-plugins/CHANGELOG.md)
+日本語版: [README.ja.md](./README.ja.md)
 
 ---
 
-## サポート
+## Available Apps
 
-不具合報告・質問・要望は **リポジトリ共通の窓口** をご利用ください。
+### VideoTileKun-desktop (Desktop App)
 
-→ **[SUPPORT.md](./SUPPORT.md)**（報告の仕方・FAQ）
+Windows desktop app (Electron, portable) for video tile preview and library management.
+
+- **Download**: Get the latest **VideoTileKun-desktop-vX.Y.Z-win64.zip** from [Releases](https://github.com/animtools/Releases/releases), extract it, and run the included exe.
+- **Documentation (this app)**: [apps/VideoTileKun-desktop/](./apps/VideoTileKun-desktop/)  
+  - [README (Overview, Features, Requirements)](./apps/VideoTileKun-desktop/README.md)  
+  - [User Guide](./apps/VideoTileKun-desktop/USER_GUIDE.md)  
+  - [Quick Start](./apps/VideoTileKun-desktop/QUICKSTART.md)  
+  - [Changelog](./apps/VideoTileKun-desktop/CHANGELOG.md)
+
+### VideoTileKun-plugins (Eagle Plugin Set)
+
+Distribution bundle of 3 VideoTileKun plugins for Eagle (Inspector / Player / Service).
+
+- **Download**: Get the latest **VideoTileKun-plugins-vX.Y.Z.zip** from [Releases](https://github.com/animtools/Releases/releases) and place it in Eagle's plugin folder.
+- **Documentation (this set)**: [apps/VideoTileKun-plugins/](./apps/VideoTileKun-plugins/)  
+  - [README (Overview, Included Plugins)](./apps/VideoTileKun-plugins/README.md)  
+  - [User Guide](./apps/VideoTileKun-plugins/USER_GUIDE.md)  
+  - [Quick Start](./apps/VideoTileKun-plugins/QUICKSTART.md)  
+  - [Changelog](./apps/VideoTileKun-plugins/CHANGELOG.md)
 
 ---
 
-## ライセンス
+## Support
 
-各アプリは **再配布可・改変禁止** の利用条件です。未改変のままの再配布は可能で、改変・派生作品の作成・配布はできません。詳細は [LICENSE](./LICENSE) を参照してください。
+For bug reports, questions, or feature requests, please use the **repository-wide support channel**.
+
+→ **[SUPPORT.md](./SUPPORT.md)** (How to report, FAQ)
+
+---
+
+## License
+
+Each app is licensed under **redistribution allowed, modification prohibited**. Unmodified redistribution is permitted; modification, derivative works, and their distribution are not. See [LICENSE](./LICENSE) for details.
