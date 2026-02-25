@@ -24,14 +24,8 @@
 
 ## デモ・スクリーンショット
 
-デモ GIF は [media/](./media/) に配置し、README や GitHub Release の説明文から参照できます。
-
-- **README での表示例**（ファイルを `media/` に置いたあと、下記のコメントを外してファイル名を合わせる）:
-  ```markdown
-  ![タイル生成](media/tile-generation.gif)
-  ![ライブラリ](media/library.gif)
-  ```
-- **Release 説明文で使う場合**: リポジトリに push したうえで、`https://github.com/animtools/Releases/raw/main/apps/VideoTileKun-desktop/media/ファイル名.gif` を画像 URL として貼れます。詳しくは [media/README.md](./media/README.md)。
+![タイル生成](media/tile-generation.gif)
+![ライブラリ](media/library.gif)
 
 ---
 

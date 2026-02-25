@@ -16,11 +16,11 @@
 
 ## 含まれるプラグイン
 
-| プラグイン | 役割 |
-|------------|------|
+| プラグイン                | 役割                                                                           |
+| ------------------------- | ------------------------------------------------------------------------------ |
 | **VideoTileKunInspector** | インスペクタで動画のタイル（サムネイル）を生成・表示。ホバーでプレビュー再生。 |
-| **VideoTileKunPlayer** | 動画専用プレーヤー。タイムライン・マーカー・タイルビュー付き。 |
-| **VideoTileKunService** | 動画をライブラリに追加したときに、バックグラウンドでタイルを自動生成。 |
+| **VideoTileKunPlayer**    | 動画専用プレーヤー。タイムライン・マーカー・タイルビュー付き。                 |
+| **VideoTileKunService**   | 動画をライブラリに追加したときに、バックグラウンドでタイルを自動生成。         |
 
 3 本とも連携して使うことを想定していますが、必要なものだけ入れても動作します。
 
@@ -38,14 +38,8 @@
 
 ## デモ・スクリーンショット
 
-デモ GIF は [media/](./media/) に配置し、README や GitHub Release の説明文から参照できます。
-
-- **README での表示例**（ファイルを `media/` に置いたあと、下記のコメントを外してファイル名を合わせる）:
-  ```markdown
-  ![タイル一覧](media/tile-grid.gif)
-  ![ホバープレビュー](media/hover-preview.gif)
-  ```
-- **Release 説明文で使う場合**: リポジトリに push したうえで、`https://github.com/animtools/Releases/raw/main/apps/VideoTileKun-plugins/media/ファイル名.gif` を画像 URL として貼れます。詳しくは [media/README.md](./media/README.md)。
+![タイル生成](media/generate-tile.gif)
+![タイルビューワー](media/tile-viewer.gif)
 
 ---
 
